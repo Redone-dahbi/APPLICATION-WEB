@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: #333; 
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.iris-table {
+    width: 80%;
+    background-color: #e0ffe0;
+    border-collapse: collapse;
+}
+
+.iris-table th, .iris-table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center; 
+} 
