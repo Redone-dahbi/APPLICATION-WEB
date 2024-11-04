@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from data_analysis import get_data
+from data_analysis import *
 
 app = Flask(__name__)
 LAYOUT = "layout.html"
